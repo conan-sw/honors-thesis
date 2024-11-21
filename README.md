@@ -1,2 +1,2 @@
 # Data Science Honors Thesis
-For my DS honors thesis
+For my Data Science honors thesis
