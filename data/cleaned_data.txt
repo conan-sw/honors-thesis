@@ -1,0 +1,12 @@
+hashed_sid (dtype = str): Leading 6 digits of hashed student IDs, for the purpose of de-identification. Retains uniqueness.
+timestamp (dtype = pd.datetime): Timestamp of extension request
+assignments (dtype = str): Assignment for which a student requested an extension.
+days (dtype = str): Number of days for which a student requested an extension.
+Class Name (dtype = str): The name of the class for which a student requested an extension.
+Class Type (dtype = str): Course type of the class (Lower Division, Upper Division Core, Upper Division Elective).
+Assignment Category (dtype = str): Assignment Category of extension request (Lab, Homework, Project).
+Assignment Number within Category (dtype = str): For example, the "1" in "Homework 1"
+Subassignment Number (dtype = str): For example, the "A" in "Project 1A". Null if the particular assignment did not have a subassignment number.
+Regular Deadline (dtype = pd.datetime): Deadline of assignment.
+delta (dtype = pd.datetime): Time of extension request relative to assignment deadline. Negative values indicate a request prior to the deadline.
+delta (min) (dtype = float64): Time of extension reqeuest relative to assignment deadline, expressed in minutes. Negative values indicate a request prior to the deadline.
