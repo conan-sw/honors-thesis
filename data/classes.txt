@@ -1,2 +1,2 @@
-Course Number (dtype = str): Name of the class using the Flextensions tool
-Spreadsheet link (dtype = str): URL of spreadsheet recording the extension requests for a particular class. This field was used to map requests to concrete courses.
+Course Number: Name of the class using the Flextensions tool
+Spreadsheet link: URL of spreadsheet recording the extension requests for a particular class. This field was used to map requests to concrete courses.
