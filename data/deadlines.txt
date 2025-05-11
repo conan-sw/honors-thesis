@@ -2,3 +2,6 @@ Class Name: Name of class
 Class Type: Lower Division, Upper Division Core, or Upper Division Elective
 Assignment Category: Lab, Homework, or Project
 Assignment Number within Category: For example, the "1" in "Homework 1A"
+Subassignment category: Indicates if particular assignment is a Checkpoint or not. NULL if not a checkpoint
+Subassignment number: For example, the "A" in "Project 1A"
+Regular Deadline: Date and time indicating deadline of assignment (e.g., 1/31/2025 23:59:59)
