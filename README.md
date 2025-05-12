@@ -1,6 +1,6 @@
 # Flextensions: Analysis Across Course and Assignment Types 
 
-## (Data Science Honors Thesis)
+## Data Science Honors Thesis
 
 This repository includes most of what is needed to replicate the exploration. The original data includes personally identifiable data which cannot be shared nor uploaded to this repository. Instead, the `data` folder includes text files describing the schema of each dataset that was used.
 
