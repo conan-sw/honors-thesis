@@ -11,11 +11,13 @@ This folder contains the code used to conduct the exploration. Code outputs are 
 
 ## data
 
-Instead of the datasets used (which cannot be shared), this folder includes one text file for each dataset that was used in the exploration, describing the schema. This folder consists of three files:
+Instead of the datasets used (which cannot be shared), this folder includes one text file for each dataset that was used in the exploration, describing the schema. This folder consists of three files and one folder:
 
 * `cleaned_data.txt` which describes the schema of `cleaned_data.csv`, the dataset including the extension requests collected
 * `classes.txt` which describes `classes.csv`, used to map form responses to concrete class names
 * `deadlines.txt` which describes `deadlines.csv`, used to map form responses to the appropriate assignment and deadlines
+
+* `raw_data` is a folder that contains the CSV files of the raw Google Cloud project logs. `example_log.txt` is a placeholder for the 14 CSV files that were in the original `raw_data` folder.
 
 ## figures
 
